@@ -1,0 +1,273 @@
+<html>
+    <head>
+        <style>
+            .tel {
+                position: absolute;
+                left:350px;
+                top:40px;
+            }
+            body {
+                background: rgb(250,250,250);
+            }
+            .reg {
+                position: fixed;
+                width:344px;
+                height:283px;
+                background: white;
+                right:597px;
+                top:213px;            
+                border-left: 1px solid rgb(222, 222, 222);
+                border-right: 1px solid rgb(222, 222, 222);
+                border-bottom: 1px solid rgb(222, 222, 222);
+
+            }
+            .under-reg {
+                position: fixed;
+                width: 344px;
+                height: 62px;
+                background: white;
+                bottom: 376px;
+                right: 597px;
+                border: 1px solid rgb(224, 222, 222)
+            }
+            .down {
+                position: fixed;
+                width: 400px;
+                height: 30px;
+                background: rgb(250,250,250);
+                bottom: 335px;
+                right: 447px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                font-weight: 300;
+            }
+            .user {
+                position: relative;
+                width: 76%;
+                height: 13%;
+                left: 12%;
+                right: 12%;
+                top:10%;
+                border: 1px solid rgb(222,222,222);
+                font-size: 12px;
+                outline:none;
+            }
+            .pass {
+                position: relative;
+                width: 76%;
+                height: 13%;
+                left: 12%;
+                right: 12%;
+                top:12%;
+                border: 1px solid rgb(222,222,222);
+                font-size: 12px;
+                outline:none;
+            }
+            .voiti {
+                position: relative;
+                width: 76%;
+                height: 11%;
+                left: 12%;
+                right: 12%;
+                top:17%;
+                border: 1px solid rgb(189,189,231);
+                font-size: 12px;
+                outline:none;
+                color: white;
+                background: rgb(189, 189, 231);
+                font-weight: bold;
+                border-radius: 5px;
+            }
+            .or {
+                position: relative;
+                top:16%;
+                text-align: center;
+                font-size: 17px;
+                color: cadetblue;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .icon {
+                position: relative;
+                top:9%;
+                left:27%;
+            }
+            .voiti-face {
+                position: relative;
+                top:54px;
+                left:34%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                font-weight: bold;
+                color: rgb(86, 86, 150);
+            }
+            .forgot {
+                position:relative;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 11px;
+                top:15%;
+            }
+            .noacc {
+                position:relative;
+                top:17%;
+                left:7%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+            }
+            .registration {
+                position:relative;
+                bottom:35%;
+                left:53%;
+                color:rgb(125, 125, 224);
+                font-weight: bold;
+            } 
+            a {
+                text-decoration: none;
+            }
+            .first-line2 {
+               position: fixed;
+               display: flex;
+               list-style-type: none;
+               flex-direction: row;
+               font-size: 80%;
+               bottom:100px;
+               left:550px;
+               color: rgb(189,189,231);
+               }
+            .first-line2 li {
+                margin:7px;
+            }
+            .first-line a:link {
+                color: rgb(158, 157, 157);
+            }
+            .second-line2 {
+               position: fixed;
+               display: flex;
+               list-style-type: none;
+               flex-direction: row;
+               font-size: 80%;
+               bottom:80px;
+               left:590px;
+               color: rgb(189,189,231);
+               }
+            .second-line2 li {
+                margin:7px;
+            }
+            .second-line a:link {
+                color: rgb(158, 157, 157);
+            }
+            .third-line2 {
+               position: fixed;
+               display: flex;
+               list-style-type: none;
+               flex-direction: row;
+               font-size: 80%;
+               bottom:40px;
+               left:780px;
+               color: rgb(158, 157, 157);
+               }
+            .third-line2 li {
+                margin:7px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="https://runet.rbc.ru/upload/iblock/2d8/2d89c3279e659934558b67d233ded184.jpg" width="1200" class ="tel">
+        <div class = "reg">
+            <input type="text" size="30" class = "user" placeholder="Номер телефона, имя пользователя или электронная почта">
+            <input type="text" size="30" class = "pass" placeholder="Пароль">
+            <button class = "voiti">Войти</button>
+            <p class = "or">или</p>
+            <p class= "voiti-face"><a href = "https://www.instagram.com/accounts/emailsignup/">Войти через Facebook</a></p>
+            <img src = "https://cdn.icon-icons.com/icons2/1099/PNG/128/1485482214-facebook_78681.png" width="16" class = "icon">
+            <p class = "forgot"><a href = "https://www.instagram.com/accounts/emailsignup/">Забыли пароль?</a></p>
+        </div>
+        <div class = "under-reg">
+            <p class = "noacc">У вас ещё нет аккаунта?</p>
+            <p class = "registration"><a href = "https://www.instagram.com/accounts/emailsignup/">Зарегистрироваться</a></p>
+        </div>
+        <div class ="down">
+            <p>Установите приложение.</p>
+        </div>
+        <div class = "first-line">
+            <ul class="first-line2">
+                <li>
+                    <a href = "https://about.instagram.com/" target="_blank"><div>Информация</div></a>
+                </li>
+                <li>
+                    <a href = "https://about.instagram.com/blog/" target="_blank"><div>Блог</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/about/jobs/" target="_blank"><div>Вакансии</div></a>
+                </li>
+                <li>
+                    <a href = "https://help.instagram.com/" target="_blank"><div>Помощь</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/developer/" target="_blank"><div>API</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/legal/privacy/" target="_blank"><div>Конфиденциальность</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/legal/terms/" target="_blank"><div>Условия</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/directory/profiles/" target="_blank"><div>Популярные аккаунты</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/directory/hashtags/" target="_blank"><div>Хэштеги</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/explore/locations/" target="_blank"><div>Места</div></a>
+                </li>
+                
+            </ul>
+
+        </div>
+        <div class = "second-line">
+            <ul class = "second-line2">
+                <li>
+                    <a href = "https://www.instagram.com/topics/beauty/" target="_blank"><div>Красота</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/topics/dance-and-performance/" target="_blank"><div>Танцы и выступления</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/topics/fitness/" target="_blank"><div>Фитнес</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/topics/food-and-drink/" target="_blank"><div>Еда и напитки</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/topics/home-and-garden/" target="_blank"><div>Дом и сад</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/topics/music/" target="_blank"><div>Музыка</div></a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/topics/visual-arts/" target="_blank"><div>Изобразительное искусство</div></a>
+                </li>
+            </ul>
+        </div>
+        <div class = "third line">
+            <ul class = "third-line2">
+                <li>
+                    <div>Русский ˅</div> 
+                </li>
+                <li>
+                    <div>© Instagram от Facebook, 2021</div>
+                </li>
+            </ul>
+        </div>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
